@@ -1,0 +1,30 @@
+.services{
+    background: #333;color: #fff;
+    padding:3rem 0 4rem;}
+    .services-flex{display: flex;
+    gap: 2rem;}
+    .service-item h4{font-size: 1.1rem;
+    margin-bottom:10px;}
+
+    .team{
+        padding:3rem0 4rem;
+    }
+.team-flex{display: flex;
+gap: 20px;
+}
+.team-item{
+flex: 1;
+}
+team-item img{
+border-radius: 10px;
+}
+@media(max-width:768px){header .header-flex,
+    footer .footer-flex,
+    .services .services-flex,
+    .team .team-flex{
+    flex-direction:column;
+    gap: 1.5rem;}
+    .hero {height: 300px;}
+    .hero h2 {font-size: 1.8rem;}
+    .gallery-item{width:calc(50% - 20px);}
+    .footer .footer-flex{text-align:center;}}
